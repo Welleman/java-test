@@ -9,21 +9,21 @@ public class Calculate{
 		
 		switch (args[1]){
 			// +
-            case "\u002B":
-                System.out.println("Summ: " + (first + second));
-                break;
+			case "\u002B":
+				System.out.println("Summ: " + (first + second));
+				break;
 			// -
-            case "\u002D":
-                System.out.println("Raznost: " + (first - second));
-                break;
+			case "\u002D":
+                		System.out.println("Raznost: " + (first - second));
+                		break;
 			// *
 			case "p":
-                System.out.println("Proizvedenie: " + (first * second));
-                break;
-            // /
+                		System.out.println("Proizvedenie: " + (first * second));
+                		break;
+            		// /
 			case "d":
-                System.out.println("Delenie: " + (float)(first / second));
-                break;
-        }
+                		System.out.println("Delenie: " + (float)(first / second));
+                		break;
+        	}
 	}
 }
