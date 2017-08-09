@@ -8,24 +8,22 @@ public class Calculate{
 		int result;
 		
 		switch (args[1]){
+			// +
             case "\u002B":
                 System.out.println("Summ: " + (first + second));
                 break;
+			// -
             case "\u002D":
                 System.out.println("Raznost: " + (first - second));
                 break;
-            case "p":
+			// *
+			case "p":
                 System.out.println("Proizvedenie: " + (first * second));
                 break;
-            case "d":
+            // /
+			case "d":
                 System.out.println("Delenie: " + (float)(first / second));
                 break;
         }
-		
-		
-		
-		
-		
-		
 	}
 }
